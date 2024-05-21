@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    background-color: #fafafa;
+}
+main{
+    display: flex;
+    width: 100%;
+}
+#banner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 15px;
+    width: 100%;
+}
+#banner img{
+    max-width: 380px;
+    width: 60%;
+    height: 570px;
+}
+#login{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 100%;
+}
+#boxForm{
+    max-width: 380px;
+    width: 83%;
+    height: 400px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logoInstagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logoInstagram img{
+    width: 175px;
+    height: 50px;
+    margin: 30px auto 12px;
+}
+#formLogin{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 80%;
+}
+input[type="text"] {
+    font-size: 12px;
+    background-color: #fafafa;
+    padding: 0 3% 0 3%;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 93%;
+    height: 36px;
+    margin: 5px auto;
+}
+input[type="submit"] {
+    background-color: #b2dffc;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    margin: 5px auto;
+    border: none;
+}
+#lineForms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%;
+}
+#lineForms span{
+    text-align: center;
+    text-transform: uppercase;
+    color: #bbb;
+    width: 10%;
+    height: 16px;
+    font-size: 14px;
+}
+#line{
+    border-top: 1px solid #dbdbdb;
+    width: 45%;
+}
+#linksForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+}
+#logFacebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+#logFacebook a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    width: 100%;
+    text-decoration: none;
+}
+#logFacebook img{
+    width: 15px;
+    height: 15px;
+}
+#logFacebook span{
+    color: #385185;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* #content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    padding-top: 30px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    width: 50%;
+    background-color: #919DAB;
+    height: 100%;
+}
+.banner img{
+    width: 380px;
+    height: 569px;
+}
+.login{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 10px;
+    width: 50%;
+    background-color: #ffffff;
+    height: 100%;
+}
+.loginForms{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 348px;
+    height: 383px;
+    background-color: #ffffff;
+    border: 1px solid var(--cor-primaria);
+}
+#logoInstagram{
+    margin: 30px 0px 12px 0px;
+    width: 175px;
+    height: 51px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+#form text{
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 268px;
+    margin: 5px auto;
+}
+#registerFacebook img{
+    width: 16px;
+    height: 16px;
+} */
